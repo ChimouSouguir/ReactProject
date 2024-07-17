@@ -1,0 +1,192 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+      /* background: linear-gradient(to right, #f8f9fa, #e9ecef); */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .c-details {
+    margin-left: 10px;
+  }
+  
+  .average-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .average-icon {
+    font-size: 1.5rem;
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  .average-text {
+    margin-right: 5px;
+  }
+  
+  .average-value {
+    font-weight: bold;
+  }
+  
+  .reactions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .reaction-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .reaction-icon.heart {
+    color: red;
+  }
+  
+  .reaction-icon.thumb {
+    color: blue;
+  }
+  
+  .reaction-icon.laugh {
+    color: yellow;
+  }
+  
+  .reaction-icon.angry {
+    color: rgb(255, 75, 25);
+  }
+  
+  .reaction-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .reaction-buttons {
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 20px;
+    font-size: 0.9rem; /* Smaller font size */
+  }
+  
+  .reaction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .modal-header {
+    background-color: whitesmoke;
+    color: #333;
+    border-bottom: none;
+    
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .reaction-buttons .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  /* Music.css */
+.reaction-list .reaction-enter {
+  opacity: 0.01;
+  transform: scale(0.9);
+}
+.reaction-list .reaction-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
+.reaction-list .reaction-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+.reaction-list .reaction-exit-active {
+  opacity: 0.01;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.animate-card {
+  animation: bounceIn 0.5s forwards;
+}
+
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 24px;
+  color: #666;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.reaction-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.reaction-icon:hover {
+  transform: scale(1.2) rotate(15deg);
+}

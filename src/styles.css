@@ -1,0 +1,106 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px; /* Ajouter un espace intérieur aux côtés */
+  background-color: #fff; /* Changer la couleur de fond */
+  border-bottom: 1px solid #ccc; /* Ajouter une bordure en bas */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Couleur du texte du logo */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px; /* Espacement horizontal entre les liens */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* Couleur des liens de navigation */
+}
+
+.upload-button {
+  padding: 10px 20px; /* Ajouter un espace autour du bouton */
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Ajouter une transition pour une animation fluide */
+}
+
+.upload-button:hover {
+  background-color: #0056b3; /* Couleur de fond du bouton au survol */
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 20px; /* Espacement horizontal entre les boutons */
+}
+
+.logout-button {
+  background-color: #dc3545; /* Couleur de fond du bouton de déconnexion */
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Couleur de fond du bouton de déconnexion au survol */
+}
+/* styles.css */
+.card {
+  position: relative;
+}
+
+.delete-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: red;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 10%;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.animated-card {
+  transition: transform 0.3s;
+}
+
+.animated-card:hover {
+  transform: translateY(-10px);
+}
+
+.delete-button {
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #ff4c4c;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

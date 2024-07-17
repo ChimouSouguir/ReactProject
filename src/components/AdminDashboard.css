@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+button {
+  margin-right: 5px;
+}
+
+.dropdown-menu {
+  min-width: 100px;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-inline .form-control {
+  margin-right: 5px;
+  width: 300px;
+}
+.bold-title {
+  font-weight: 700; /* Définit une épaisseur de police plus forte */
+}
+
+
+.container {
+  padding: 20px;
+}
+/* styles.css */
+.search-icon {
+  font-size: 1.5em; /* Ajustez la taille de l'icône */
+  align-items: center;
+  display: flex;
+}

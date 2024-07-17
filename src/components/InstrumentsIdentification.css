@@ -1,0 +1,63 @@
+/* Styles pour la liste des instruments */
+.instrument-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Style pour chaque élément de la liste d'instruments */
+  .instrument-item {
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Style pour un élément sélectionné */
+  .instrument-item.selected {
+    transform: scale(1.1);
+  }
+  
+  /* Style pour l'image de l'instrument */
+  .instrument-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  /* Style pour le texte du nom de l'instrument */
+  .instrument-item p {
+    margin-top: 10px;
+  }
+  
+  /* Style lorsque l'image est cliquée */
+  .instrument-item img:hover {
+    border-color: #007bff;
+  }
+  
+  /* Style pour la section de feedback */
+  .feedback {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style pour le bouton "Réessayer" */
+  .feedback button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .feedback button:hover {
+    background-color: #0056b3;
+  }
+  

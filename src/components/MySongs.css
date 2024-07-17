@@ -1,0 +1,49 @@
+
+  
+  .card {
+    background-color: #f0f8ff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .icon {
+    transition: transform 0.2s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* Agrandit l'icône au survol */
+  }
+  
+  .song-actions {
+    display: flex;
+    justify-content: space-between; /* Aligne les boutons sur les côtés */
+    align-items: center; /* Aligne verticalement */
+    gap: 10px; /* Espacement entre les boutons */
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 10px; /* Ajustez la taille si nécessaire */
+    border-radius: 50%; /* Boutons ronds */
+    width: 50px;
+    height: 50px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #0056b3; /* Couleur au survol */
+  }
+  
+  
+  
+  
+  

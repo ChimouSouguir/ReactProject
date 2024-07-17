@@ -1,0 +1,80 @@
+/* MemoryGame.css */
+
+.memory-game-container {
+  padding: 20px;
+}
+
+.game-title {
+  font-size: 2.5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.game-card {
+  width: 70px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  justify-content: center; /* Centre les contenus horizontalement */
+  align-items: center; /* Centre les contenus verticalement */
+}
+
+.game-card:hover {
+  transform: scale(1.1);
+}
+
+.game-card.flipped {
+  transform: rotateY(180deg);
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+.game-finished {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #c0ffc0;
+  border: 2px solid #80ff80;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 768px) {
+  .game-card {
+    width: 100px;
+    height: 80px;
+  }
+
+  .game-title {
+    font-size: 2rem;
+  }
+}
+
+.game-finished h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.game-finished p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 18px;
+}.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ou autre valeur selon votre mise en page */
+}
+
+.card {
+  flex: 1 1 30%; /* Ajustez la taille des cartes en fonction de votre design */
+  margin-bottom: 20px;
+}

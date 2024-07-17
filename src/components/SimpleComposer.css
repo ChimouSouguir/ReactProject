@@ -1,0 +1,130 @@
+/* SimpleComposer.css */
+
+.composer-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .composer-title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .notes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .note-button {
+    margin: 3px;
+    padding: 4px 6px; /* Reduced padding for smaller buttons */
+    font-size: 9px; /* Smaller font size */
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px; /* Slightly smaller border radius */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+  
+  .note-icon {
+    font-size: 18px; /* Taille de l'icône encore plus petite */
+    margin-right: 5px;
+  }
+  
+  .composition {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .composition-title {
+    font-size: 20px;
+  }
+  
+  .composition-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .composition-item {
+    margin-top: 10px; /* Espacement réduit entre les éléments de la composition */
+    font-size: 16px; /* Taille de police légèrement réduite */
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button {
+    margin-left: 8px; /* Espacement réduit avec les boutons de suppression */
+    padding: 4px 6px; /* Taille de padding encore plus réduite */
+    font-size: 10px; /* Taille de police encore plus petite */
+    background-color: #e57373;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .play-button {
+    margin-top: 20px;
+    padding: 8px 16px; /* Taille de padding encore plus réduite */
+    font-size: 14px; /* Taille de police légèrement réduite */
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .play-button .music-icon {
+    margin-left: 6px; /* Espacement réduit avec l'icône */
+  }
+  
+  .clear-button {
+    margin-top: 10px; /* Espacement réduit avec le bouton de réinitialisation */
+    padding: 6px 12px; /* Taille de padding encore plus réduite */
+    font-size: 12px; /* Taille de police encore plus petite */
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover,
+  .delete-button:hover,
+  .play-button:hover,
+  .note-button:hover {
+    opacity: 0.9;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .notes {
+      flex-wrap: wrap;
+    }
+  
+    .note-button {
+      margin: 3px; /* Marge réduite entre les boutons des notes */
+      padding: 4px 8px; /* Taille de padding encore plus réduite pour les petits écrans */
+      font-size: 8px; /* Taille de police encore plus petite pour les petits écrans */
+    }
+  
+    .composition-item {
+      font-size: 14px; /* Taille de police légèrement réduite pour les petits écrans */
+    }
+  
+    .delete-button {
+      padding: 3px 6px; /* Taille de padding encore plus réduite pour les petits écrans */
+      font-size: 8px; /* Taille de police encore plus petite pour les petits écrans */
+      margin-left: 6px; /* Espacement réduit avec les boutons de suppression pour les petits écrans */
+    }
+  
+    .play-button,
+    .clear-button {
+      padding: 6px 12px; /* Taille de padding encore plus réduite pour les petits écrans */
+      font-size: 12px; /* Taille de police encore plus petite pour les petits écrans */
+    }
+  }
+  

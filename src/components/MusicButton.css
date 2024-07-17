@@ -1,0 +1,55 @@
+/* Style pour le bouton "Add Question" */
+.add-question-button {
+    background-color: #6bdfff; /* Bleu vif */
+    color: #ffffff; /* Texte blanc */
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 12px; /* Espacement avec le bouton suivant */
+  }
+  
+  .add-question-button:hover {
+    background-color: #49b9ff; /* Bleu plus foncé au survol */
+    transform: scale(1.05);
+  }
+  
+  .add-question-button:focus {
+    outline: none; /* Supprime le contour par défaut */
+    box-shadow: 0 0 0 3px rgba(107, 223, 255, 0.5); /* Effet de focus */
+  }
+  
+  .add-question-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Style pour le bouton "Add Exercise" */
+  .add-exercise-button {
+    background-color: #ff6b6b; /* Rouge vif */
+    color: #ffffff; /* Texte blanc */
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .add-exercise-button:hover {
+    background-color: #ff3838; /* Rouge plus foncé au survol */
+    transform: scale(1.05);
+  }
+  
+  .add-exercise-button:focus {
+    outline: none; /* Supprime le contour par défaut */
+    box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.5); /* Effet de focus */
+  }
+  
+  .add-exercise-button:active {
+    transform: scale(0.95);
+  }
+  

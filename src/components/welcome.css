@@ -1,0 +1,33 @@
+.welcome-message {
+    position: fixed; /* Fixed positioning to center on the page */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position */
+    text-align: center; /* Center text */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background */
+    border: 2px solid #007bff; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around text */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    z-index: 1000; /* Ensure it appears above other content */
+    animation: fadeIn 1s ease-in-out, celebrate 2s infinite; /* Add animations */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes celebrate {
+    0%, 100% {
+      transform: translateY(0); /* Normal position */
+    }
+    50% {
+      transform: translateY(-20px); /* Upward movement */
+    }
+  }
+  

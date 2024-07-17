@@ -1,0 +1,56 @@
+.exercise-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .question-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007bff; /* Couleur bleue pour le titre de la question */
+  }
+  
+  .answer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .answer-item {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  .correct-answer {
+    background-color: #d4edda; /* Fond vert pour la bonne réponse */
+  }
+  
+  .incorrect-answer {
+    background-color: #f8d7da; /* Fond rouge pour les mauvaises réponses */
+  }
+  
+  .add-question-button {
+    background-color: #28a745; /* Fond vert pour le bouton */
+    border-color: #28a745; /* Bordure verte pour le bouton */
+    color: #fff; /* Couleur blanche pour le texte */
+    font-size: 14px; /* Taille de la police */
+    margin-top: 10px; /* Espacement supérieur */
+  }
+  
+  .add-exercise-button {
+    background-color: #007bff; /* Fond bleu pour le bouton */
+    border-color: #007bff; /* Bordure bleue pour le bouton */
+    color: #fff; /* Couleur blanche pour le texte */
+    font-size: 14px; /* Taille de la police */
+    margin-top: 10px; /* Espacement supérieur */
+  }
+  

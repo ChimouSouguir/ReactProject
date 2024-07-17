@@ -1,0 +1,12 @@
+/* Header.css */
+
+.custom-modal-size .modal-dialog {
+    max-width: 10%; /* Ajuste la largeur maximale */
+    max-height: 30%; /* Ajuste la hauteur maximale */
+    margin: auto; /* Centre la modal horizontalement */
+  }
+  
+  .custom-modal-size .modal-content {
+    height: auto; /* Ajuste la hauteur du contenu de la modal */
+  }
+  

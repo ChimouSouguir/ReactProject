@@ -1,0 +1,57 @@
+.modal-header {
+  background-color: #ffcc00; /* Bright yellow */
+}
+
+.modal-title {
+  color: #fff; /* White */
+}
+
+.modal-body {
+  background-color: #e0f7fa; /* Light blue */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bright blue */
+  border-color: #0056b3; /* Darker blue */
+}
+
+.btn-secondary {
+  background-color: #ff4d4d; /* Bright red */
+}
+.modal {
+  transition: transform 0.3s ease;
+}
+
+.modal.show {
+  transform: scale(1.05);
+}
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+.btn-secondary:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+  transform: scale(1.05);
+}
+.modal-body {
+  background-image: url('./images/profile.jpg');
+  background-size: cover;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.modal.show {
+  animation: fadeIn 0.3s;
+}
+
+.modal.hide {
+  animation: fadeOut 0.3s;
+}

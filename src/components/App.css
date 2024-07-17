@@ -1,0 +1,115 @@
+.music-section {
+  background-image: url('./images/backk.jpg'); /* Update this path */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 1s ease; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.btn-outline-dark {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: rgba(255, 215, 0, 0.8); /* Bright hover effect */
+}
+
+.no-music {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 50px;
+  animation: bounce 1s infinite; /* Add bouncing effect */
+}
+
+.card {
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Star Ratings */
+.star-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.star-ratings label {
+  color: #aaa;
+  transition: color 0.5s;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.star-ratings label:hover,
+.star-ratings label:hover ~ label {
+  color: #f8d231;
+}
+
+/* Reactions */
+.reactions {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Increased gap for better spacing */
+  margin-top: 10px;
+}
+
+.reaction-icon {
+  font-size: 2.5rem; /* Larger icons for children */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.reaction-icon:hover {
+  transform: scale(1.3); /* Scale effect on hover */
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.icon {
+  animation: bounce 1s infinite;
+}

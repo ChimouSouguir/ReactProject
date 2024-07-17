@@ -1,0 +1,51 @@
+.no-music-message {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+.full-page-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.downloaded-songs-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.downloaded-songs-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-outline-primary {
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.custom-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song-info {
+  font-weight: bold;
+}
+
+.audio-player {
+  width: 100%;
+}
