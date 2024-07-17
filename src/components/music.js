@@ -11,7 +11,7 @@ import AuthModal from './AuthModal';
 import thumbSoundSrc from './Sounds/thumb-sound.mp3';
 import heartSoundSrc from './Sounds/heart-sound.mp3';
 import laughSoundSrc from './Sounds/laugh-sound.mp3';
-
+import "./Music.css";
 import Comments from './Comments';
 
 // Styles specific to this component
@@ -20,7 +20,7 @@ const commentStyle = {
   maxHeight: "200px",
   overflowY: "auto",
 };
-import "./Music.css";
+
 
 export default function Music({ music }) {
   const { isAuthenticated, user } = useAuth0();
